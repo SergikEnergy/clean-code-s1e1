@@ -16,6 +16,8 @@
 .matrix .matrix__link {
   font-family: fantasy, cursive;
 }
+/*п.3.5 был выполнен при пробелах в css-селекторах - п.2.1
+формирование деревовидной структуры*/
 
 @media (max-width: 768px) {
   .matrix {
