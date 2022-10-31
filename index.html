@@ -1,31 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo App</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700" />
+    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8" />
   </head>
   <body>
-    <div class="matrix"><img src="./eisenhower-matrix.jpg"><a class="matrix__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    <div class="matrix">
+      <img src="./eisenhower-matrix.jpg" />
+      <a class="matrix__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </div>
     <div class="wrapper">
-      <p id="adding-element"><label for="new-task">Add Item</label>
-        <div class="task-wrapper"><input id="new-task"class="task_input" type="text"><button>Add</button>
+      <div id="add-element">
+        <label for="new-task">Add Item</label>
+        <div class="task-wrapper">
+          <input id="new-task" class="task_input" type="text" />
+          <button>Add</button>
         </div>
-      </p>
+      </div>
       <h3>Todo</h3>
       <ul id="incomplete-tasks">
-        <li><input type="checkbox"><label class="task_input">Pay Bills</label><input type="text" class="task_input"><button class="edit">Edit</button><button class="delete"><img src="./remove.svg"></button>
+        <li>
+          <input type="checkbox" /><label class="task_input">Pay Bills</label>
+          <input type="text" class="task_input" />
+          <button class="button__change">Edit</button>
+          <button class="button__delete"><img src="./remove.svg" /></button>
         </li>
-        <li class="edit__item"><input type="checkbox"><label class="task_input">Go Shopping</label><input type="text" value="Go Shopping" class="task_input"><button class="edit">Save</button><button class="delete"><img src="./remove.svg"></button>
+        <li class="edit__item">
+          <input type="checkbox" /><label class="task_input">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="task_input" />
+          <button class="button__change">Save</button>
+          <button class="button__delete"><img src="./remove.svg" /></button>
         </li>
       </ul>
       <h3>Completed</h3>
       <ul id="completed-tasks">
-        <li><input type="checkbox" checked><label class="task_input">See the Doctor</label><input type="text" class="task_input"><button class="edit">Edit</button><button class="delete"><img src="./remove.svg"></button>
+        <li>
+          <input type="checkbox" checked /><label class="task_input">See the Doctor</label>
+          <input type="text" class="task_input" />
+          <button class="button__change">Edit</button>
+          <button class="button__delete"><img src="./remove.svg" /></button>
         </li>
       </ul>
     </div>
