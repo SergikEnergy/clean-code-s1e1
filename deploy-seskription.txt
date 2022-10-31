@@ -1,0 +1,6 @@
+1. Task: https://github.com/SergikEnergy/clean-code-s1e1/tree/clean-code-s1e1
+2. Screenshot: 
+![image](https://user-images.githubusercontent.com/79093952/199096243-bc214f39-7fec-4aef-8df9-5481137a1428.png)
+3. Deploy: https://rolling-scopes-school.github.io/sergikenergy-JSFEPRESCHOOL2022Q2/travel/ 
+4. Done 31.10.2022 / deadline 31.10.2022
+5. Score: 45/45
